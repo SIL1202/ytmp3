@@ -4,4 +4,9 @@
     "buildCommand": "apt-get update && apt-get install -y ffmpeg && pip install -r requirements.txt",
     "startCommand": "python bot.py"
   }
+},
+{
+  "deploy": {
+    "dockerfilePath": "Dockerfile"
+  }
 }
